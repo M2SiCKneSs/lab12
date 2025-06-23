@@ -1,0 +1,10 @@
+name: labenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.20
+  - scikit-multiflow
+  - pip
+  - pip:
+    - -r requirements.txt
